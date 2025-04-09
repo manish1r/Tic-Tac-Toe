@@ -71,11 +71,11 @@ function display(mss) {
     if (mss === "X" || mss === "O") {
         msgElement.innerText = "The Winner of the game is \nPlayer :" + mss;
         msgElement.style.color = "blue";
-        msgElement.style.fontSize = "28px";
+        msgElement.style.fontSize = "48px";
     } else if (mss === "Match Tied") {
         msgElement.innerText = mss;
         msgElement.style.color = "blue";
-        msgElement.style.fontSize = "28px";
+        msgElement.style.fontSize = "48px";
     } else {
         msgElement.innerText = "";
     }
