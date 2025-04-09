@@ -38,6 +38,9 @@ btn.forEach((b)=>{
             display("Match Tied")
             console.log("Match Tied");
         }
+        if(win){
+            unable();
+        }
     });
 });
 
@@ -79,4 +82,10 @@ function display(mss) {
     } else {
         msgElement.innerText = "";
     }
+}
+
+function unable(){
+    btn.forEach((b)=>{
+        b.disabled=true;
+    })
 }
