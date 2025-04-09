@@ -9,6 +9,9 @@ body{
     align-items: center;
     background-color:bisque;
 }
+h1{
+    font-size:44px;
+}
 .main{
     text-align: center;
 }
@@ -35,7 +38,7 @@ body{
 .reset{
     background-color: blue;
     padding:2% 2%;
-    font-size: 20px;
+    font-size: 40px;
     color: white;
     border-radius: 25%;
 }
