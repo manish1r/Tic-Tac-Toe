@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:bisque;
+}
+h1{
+    font-size: 80px;
+}
+.main{
+    text-align: center;
+}
+.maingame{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 40vh;
+    gap: 15px;
+}
+#btn{
+    background-color: azure;
+    height: 10vh;
+    width: 10vh;
+    font-size:32px;
+    border-radius: 15px 15px;
+    color: black;
+}
+.reset{
+    background-color: blue;
+    padding:2% 2%;
+    font-size: 40px;
+    color: white;
+    border-radius: 25%;
+}
+
+.mesg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.mesg h2{
+    font-size:24px;
+    color:blue;
+}
